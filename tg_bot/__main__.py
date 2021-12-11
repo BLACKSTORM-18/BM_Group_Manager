@@ -78,7 +78,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-[here](https://github.com/BLACKSTORM-18/JARVIS_BOT)
+[here](https://github.com/BLACKSTORM-18/BM_Group_Manager)
 """
 
 
@@ -171,7 +171,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                             callback_data="help_back".format(bot.username)),
                          InlineKeyboardButton(
                              text="Channel",
-                             url="https://t.me/BLACKSTORM18_bio")
+                             url="https://t.me/BLACKSTORM18_Writings")
                      ],
                      [
                          InlineKeyboardButton(
@@ -509,7 +509,7 @@ def source(bot: Bot, update: Update):
             bot.send_message(user.id, SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
 
             update.effective_message.reply_text("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🔥",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴘᴍ",url="t.me/timepass_Assistant_bot")]]))
+                                                [[InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴘᴍ",url="t.me/BLACKSTORM18")]]))
         except Unauthorized:
             update.effective_message.reply_text("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғɪʀsᴛ ᴛᴏ ɢᴇᴛ sᴏᴜʀᴄᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.")
 
